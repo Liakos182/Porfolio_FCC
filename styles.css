@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+/* Start of Header and Navbar Styling */
+header{
+    position: fixed;
+    width: 98.2%;
+}
+#navbar{
+    width: 100%;
+    height: 65px;
+    background-color: #e97603;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+}
+.link-container{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap:50px
+
+}
+.header-link{
+    font-family: Helvetica, sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+}
+/* End of Header and Navbar Styling */
+main{
+    background-color: #e17202;
+}
+/* Start of Welcome section Styling */
+#welcome-section{
+    background-color: #d96e02;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.welcome-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Welcome-title{
+    color: #373737;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+}
+.Welcome-title2{
+    margin-top: -18px;
+    color: #565656;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+}
+/* End of Welcome section Styling */
+/* Start of PRoject section Styling */
